@@ -11,7 +11,7 @@ public class Grip : MonoBehaviour {
 	Direction direction;
 	public GameObject Player;
 	public GameObject Block;
-	float Playersize =0.0f;
+
 	float Player_x = 0.0f;
 	float Player_z = 0.0f;
 	float Player_y = 0.0f;

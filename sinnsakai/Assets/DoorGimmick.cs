@@ -17,7 +17,8 @@ public class DoorGimmick : MonoBehaviour {
 	}
 
 	 void OnCollisionEnter(Collision collision) {
-		if (collision.gameObject.name == "Block") {
-			open = true;
+				if (collision.gameObject.name == "Block") {
+						open = true;
+				}
 		}
 }

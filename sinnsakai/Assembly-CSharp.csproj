@@ -49,6 +49,7 @@
      <Compile Include="Assets\CameraMove.cs" />
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\DoorGimmick.cs" />
+     <Compile Include="Assets\Gool.cs" />
      <Compile Include="Assets\Gravity.cs" />
      <Compile Include="Assets\Grip.cs" />
      <Compile Include="Assets\HPDisplay.cs" />

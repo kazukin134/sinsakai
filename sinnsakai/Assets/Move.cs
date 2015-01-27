@@ -44,8 +44,8 @@ public class Move : MonoBehaviour {
 			
 						} else
 			
-		if (Input.GetKey (KeyCode.LeftArrow)) {
-								if (gravity.reveres == false) {
+						if (Input.GetKey (KeyCode.LeftArrow)) {
+							if (gravity.reveres == false) {
 										x -= speed;
 										z = 0.0f;
 								}
