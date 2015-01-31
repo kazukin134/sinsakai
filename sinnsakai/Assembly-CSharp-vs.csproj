@@ -46,26 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Door.cs" />
-     <Compile Include="Assets\DoorGimmick.cs" />
-     <Compile Include="Assets\Gool.cs" />
-     <Compile Include="Assets\Gravity.cs" />
-     <Compile Include="Assets\Grip.cs" />
-     <Compile Include="Assets\HPDisplay.cs" />
-     <Compile Include="Assets\Jump.cs" />
-     <Compile Include="Assets\Mian1\CameraChange.cs" />
-     <Compile Include="Assets\Mian1\CameraMove.cs" />
-     <Compile Include="Assets\Mian1\Respawn.cs" />
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\Pause.cs" />
-     <Compile Include="Assets\ReverseMove.cs" />
-     <Compile Include="Assets\SceneChange.cs" />
-     <Compile Include="Assets\Subjectivity.cs" />
-     <Compile Include="Assets\TS.cs" />
-     <Compile Include="Assets\gr.cs" />
-     <Compile Include="Assets\gra.cs" />
-     <Compile Include="Assets\hit.cs" />
-     <Compile Include="Assets\test5.cs" />
+     <Compile Include="Assets\Script\CameraChange.cs" />
+     <Compile Include="Assets\Script\CameraMove.cs" />
+     <Compile Include="Assets\Script\Door.cs" />
+     <Compile Include="Assets\Script\DoorGimmick.cs" />
+     <Compile Include="Assets\Script\Gool.cs" />
+     <Compile Include="Assets\Script\Gravity.cs" />
+     <Compile Include="Assets\Script\Grip.cs" />
+     <Compile Include="Assets\Script\HPDisplay.cs" />
+     <Compile Include="Assets\Script\Jump.cs" />
+     <Compile Include="Assets\Script\Move.cs" />
+     <Compile Include="Assets\Script\Pause.cs" />
+     <Compile Include="Assets\Script\Respawn.cs" />
+     <Compile Include="Assets\Script\ReverseMove.cs" />
+     <Compile Include="Assets\Script\SceneChange.cs" />
+     <Compile Include="Assets\Script\Subjectivity.cs" />
+     <Compile Include="Assets\Script\TS.cs" />
+     <Compile Include="Assets\Script\hit.cs" />
+     <Compile Include="Assets\Script\test5.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
