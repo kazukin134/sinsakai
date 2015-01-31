@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraMove.cs" />
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\DoorGimmick.cs" />
      <Compile Include="Assets\Gool.cs" />
@@ -54,11 +53,14 @@
      <Compile Include="Assets\Grip.cs" />
      <Compile Include="Assets\HPDisplay.cs" />
      <Compile Include="Assets\Jump.cs" />
+     <Compile Include="Assets\Mian1\CameraChange.cs" />
+     <Compile Include="Assets\Mian1\CameraMove.cs" />
      <Compile Include="Assets\Mian1\Respawn.cs" />
      <Compile Include="Assets\Move.cs" />
      <Compile Include="Assets\Pause.cs" />
      <Compile Include="Assets\ReverseMove.cs" />
      <Compile Include="Assets\SceneChange.cs" />
+     <Compile Include="Assets\Subjectivity.cs" />
      <Compile Include="Assets\TS.cs" />
      <Compile Include="Assets\gr.cs" />
      <Compile Include="Assets\gra.cs" />

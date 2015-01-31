@@ -1,36 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
-
-
 public class Move : MonoBehaviour {
-	
-	
 	
 	public float x = 0.0f;
 	public float z = 0.0f;
 	float speed = 0.05f;
 
 	public GameObject Gravity1;
-	//public GameObject Pause1;
-
+	public GameObject Subjectivity1;
 
 	Gravity gravity;
-	//Pause pause;
+	Subjectivity subjectivity;
 
-	// Use this for initialization
 	void Start () {
 		Gravity1 = GameObject.Find ("Main Camera");
-		//Pause1 = GameObject.Find("Main Camera");
 		gravity = Gravity1.GetComponent<Gravity>();
-		//pause = Pause1.GetComponent<Pause> (); 
+		Subjectivity1 = GameObject.Find("SubjectivityCamera");
+		subjectivity = Subjectivity1.GetComponent<Subjectivity> ();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 
-		if (Time.timeScale == 1) {
+		if (Time.timeScale == 1 && subjectivity.subjectivity_b == false) {
 
 						if (Input.GetKey (KeyCode.RightArrow)) {
 								if (gravity.reveres == false) {
@@ -63,7 +55,7 @@ public class Move : MonoBehaviour {
 		
 		
 						if (Input.GetKey (KeyCode.UpArrow)) {
-								z = speed;
+								z += speed;
 								x = 0.0f;
 			
 						} else
